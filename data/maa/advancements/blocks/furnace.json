@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/loom",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "block.minecraft.furnace"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["furnace"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/furnace"
+  }
+}

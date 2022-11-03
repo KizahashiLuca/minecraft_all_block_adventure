@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/oak_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.oak_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "oak_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["oak_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/oak_wood"
+  }
+}

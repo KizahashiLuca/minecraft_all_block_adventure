@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.iron_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "iron_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["iron_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/iron_ore"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_oak_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.oak_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["oak_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/oak_planks"
+  }
+}

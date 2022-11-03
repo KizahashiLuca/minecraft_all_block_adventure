@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/purple_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.magenta_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "magenta_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["magenta_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/magenta_terracotta"
+  }
+}

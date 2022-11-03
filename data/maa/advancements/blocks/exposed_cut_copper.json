@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/exposed_copper",
+  "display": {
+    "icon": {
+      "item": "minecraft:exposed_cut_copper"
+    },
+    "title": {
+      "translate": "block.minecraft.exposed_cut_copper"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "exposed_cut_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:exposed_cut_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["exposed_cut_copper"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/exposed_cut_copper"
+  }
+}

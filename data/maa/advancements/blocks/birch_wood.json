@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/birch_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.birch_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "birch_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["birch_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/birch_wood"
+  }
+}

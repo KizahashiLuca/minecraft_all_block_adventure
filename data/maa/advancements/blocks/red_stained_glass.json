@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/brown_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.red_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "red_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["red_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/red_stained_glass"
+  }
+}

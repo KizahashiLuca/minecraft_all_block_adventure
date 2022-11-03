@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_log"
+    },
+    "title": {
+      "translate": "block.minecraft.mangrove_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mangrove_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/mangrove_log"
+  }
+}

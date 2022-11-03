@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/magenta_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.pink_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "pink_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["pink_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/pink_terracotta"
+  }
+}

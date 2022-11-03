@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/slime_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "block.minecraft.honey_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "honey_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["honey_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/honey_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "block.minecraft.cut_copper"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cut_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cut_copper"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cut_copper"
+  }
+}

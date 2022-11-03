@@ -1,0 +1,25 @@
+{
+  "display": {
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"KizahashiLuca\"}"
+    },
+    "title": {
+      "text": "全ブロックアドベンチャー"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["root"]
+  ]
+}

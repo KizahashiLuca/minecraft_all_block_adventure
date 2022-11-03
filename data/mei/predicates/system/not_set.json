@@ -1,0 +1,57 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"MEI_Calculated\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "MEI_ShowTime":{
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "MEI_ShowPos":{
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "MEI_ShowDir":{
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "MEI_ShowBiome":{
+            "min": 1,
+            "max": 2147483647
+          }
+        }
+      }
+    ]
+  }
+]

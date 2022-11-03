@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/birch_forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/birch_forest_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/dark_forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/dark_forest_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/flower_forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/plains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/river"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/sunflower_plains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/tall_birch_forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_1/tall_birch_hills"
+    }
+  ]
+}

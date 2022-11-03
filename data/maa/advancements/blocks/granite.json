@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:granite"
+    },
+    "title": {
+      "translate": "block.minecraft.granite"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["granite"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/granite"
+  }
+}

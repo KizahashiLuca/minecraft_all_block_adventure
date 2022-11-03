@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/purple_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.magenta_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "magenta_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["magenta_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/magenta_stained_glass"
+  }
+}

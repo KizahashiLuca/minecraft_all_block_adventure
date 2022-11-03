@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/blue_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.purple_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "purple_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["purple_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/purple_wool"
+  }
+}

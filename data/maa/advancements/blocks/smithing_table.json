@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/fletching_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "block.minecraft.smithing_table"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smithing_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smithing_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smithing_table"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smithing_table"
+  }
+}

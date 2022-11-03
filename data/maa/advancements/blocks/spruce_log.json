@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_log"
+    },
+    "title": {
+      "translate": "block.minecraft.spruce_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["spruce_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/spruce_log"
+  }
+}

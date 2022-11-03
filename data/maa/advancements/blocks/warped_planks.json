@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_warped_hyphae",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.warped_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "warped_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["warped_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/warped_planks"
+  }
+}

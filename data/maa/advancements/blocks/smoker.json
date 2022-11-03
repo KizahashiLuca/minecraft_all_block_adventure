@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/furnace",
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "block.minecraft.smoker"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smoker"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smoker"
+  }
+}

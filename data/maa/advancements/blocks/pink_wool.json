@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/magenta_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.pink_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "pink_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["pink_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/pink_wool"
+  }
+}

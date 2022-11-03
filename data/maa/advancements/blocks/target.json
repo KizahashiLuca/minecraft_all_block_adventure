@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/dropper",
+  "display": {
+    "icon": {
+      "item": "minecraft:target"
+    },
+    "title": {
+      "translate": "block.minecraft.target"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:target"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["target"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/target"
+  }
+}

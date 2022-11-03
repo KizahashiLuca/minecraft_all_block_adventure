@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cracked_nether_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_nether_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.chiseled_nether_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "chiseled_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_nether_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chiseled_nether_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/chiseled_nether_bricks"
+  }
+}

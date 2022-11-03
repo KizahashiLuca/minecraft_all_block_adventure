@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/crimson_nylium",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "block.minecraft.warped_nylium"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_nylium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["warped_nylium"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/warped_nylium"
+  }
+}

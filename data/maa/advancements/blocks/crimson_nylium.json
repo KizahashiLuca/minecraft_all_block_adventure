@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/netherrack",
+  "display": {
+    "icon": {
+      "item": "minecraft:crimson_nylium"
+    },
+    "title": {
+      "translate": "block.minecraft.crimson_nylium"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_nylium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crimson_nylium"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/crimson_nylium"
+  }
+}

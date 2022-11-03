@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/clay",
+  "display": {
+    "icon": {
+      "item": "minecraft:terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/terracotta"
+  }
+}

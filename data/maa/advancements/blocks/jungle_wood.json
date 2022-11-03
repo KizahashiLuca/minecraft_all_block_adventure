@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/jungle_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.jungle_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "jungle_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["jungle_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/jungle_wood"
+  }
+}

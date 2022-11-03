@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/emerald_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate_emerald_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate_emerald_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_emerald_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate_emerald_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate_emerald_ore"
+  }
+}

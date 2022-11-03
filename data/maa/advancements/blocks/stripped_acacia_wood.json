@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_acacia_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_acacia_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_acacia_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_acacia_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_acacia_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_acacia_wood"
+  }
+}

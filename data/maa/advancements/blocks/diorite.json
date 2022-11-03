@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/polished_granite",
+  "display": {
+    "icon": {
+      "item": "minecraft:diorite"
+    },
+    "title": {
+      "translate": "block.minecraft.diorite"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["diorite"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/diorite"
+  }
+}

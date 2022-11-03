@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/packed_ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "block.minecraft.blue_ice"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["blue_ice"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/blue_ice"
+  }
+}

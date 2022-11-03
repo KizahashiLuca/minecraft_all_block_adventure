@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/granite",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_granite"
+    },
+    "title": {
+      "translate": "block.minecraft.polished_granite"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "polished_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_granite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["polished_granite"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/polished_granite"
+  }
+}

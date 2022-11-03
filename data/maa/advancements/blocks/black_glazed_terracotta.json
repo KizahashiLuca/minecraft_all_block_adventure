@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/gray_glazed_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.black_glazed_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "black_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["black_glazed_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/black_glazed_terracotta"
+  }
+}

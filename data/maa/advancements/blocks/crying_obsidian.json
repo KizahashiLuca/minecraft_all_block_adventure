@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/obsidian",
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "block.minecraft.crying_obsidian"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crying_obsidian"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crying_obsidian"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/crying_obsidian"
+  }
+}

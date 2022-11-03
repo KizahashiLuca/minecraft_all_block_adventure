@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.diamond_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "diamond_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["diamond_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/diamond_ore"
+  }
+}

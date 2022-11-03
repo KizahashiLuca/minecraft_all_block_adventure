@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate"
+  }
+}

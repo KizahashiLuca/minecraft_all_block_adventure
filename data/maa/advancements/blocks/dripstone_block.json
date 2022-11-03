@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/amethyst_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:dripstone_block"
+    },
+    "title": {
+      "translate": "block.minecraft.dripstone_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dripstone_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dripstone_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dripstone_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dripstone_block"
+  }
+}

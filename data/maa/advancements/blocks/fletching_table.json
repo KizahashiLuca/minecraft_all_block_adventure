@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cartography_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:fletching_table"
+    },
+    "title": {
+      "translate": "block.minecraft.fletching_table"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fletching_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["fletching_table"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/fletching_table"
+  }
+}

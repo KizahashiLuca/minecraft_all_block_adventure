@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.gold_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gold_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gold_ore"
+  }
+}

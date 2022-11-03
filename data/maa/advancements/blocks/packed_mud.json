@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mud",
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "block.minecraft.packed_mud"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "packed_mud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:packed_mud"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["packed_mud"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/packed_mud"
+  }
+}

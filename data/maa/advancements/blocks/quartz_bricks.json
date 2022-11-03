@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/chiseled_quartz_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.quartz_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "quartz_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["quartz_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/quartz_bricks"
+  }
+}

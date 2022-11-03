@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/fire_coral_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:horn_coral_block"
+    },
+    "title": {
+      "translate": "block.minecraft.horn_coral_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "horn_coral_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:horn_coral_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["horn_coral_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/horn_coral_block"
+  }
+}

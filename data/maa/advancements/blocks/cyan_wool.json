@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/green_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.cyan_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cyan_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cyan_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cyan_wool"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/smithing_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": {
+      "translate": "block.minecraft.loom"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "loom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:loom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["loom"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/loom"
+  }
+}

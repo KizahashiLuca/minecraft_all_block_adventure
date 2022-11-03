@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/ochre_froglight",
+  "display": {
+    "icon": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "title": {
+      "translate": "block.minecraft.verdant_froglight"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "verdant_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:verdant_froglight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["verdant_froglight"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/verdant_froglight"
+  }
+}

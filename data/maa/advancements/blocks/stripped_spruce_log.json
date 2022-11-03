@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/spruce_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_spruce_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_spruce_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_spruce_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_spruce_log"
+  }
+}

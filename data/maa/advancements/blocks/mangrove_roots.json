@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mangrove_leaves",
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_roots"
+    },
+    "title": {
+      "translate": "block.minecraft.mangrove_roots"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "mangrove_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mangrove_roots"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/mangrove_roots"
+  }
+}

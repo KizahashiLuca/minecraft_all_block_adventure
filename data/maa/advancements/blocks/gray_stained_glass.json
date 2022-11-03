@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_gray_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.gray_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gray_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gray_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gray_stained_glass"
+  }
+}

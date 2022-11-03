@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/acacia_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.acacia_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["acacia_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/acacia_wood"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_gray_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.gray_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gray_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gray_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gray_terracotta"
+  }
+}

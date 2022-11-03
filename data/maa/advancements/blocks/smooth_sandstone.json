@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sandstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_sandstone"
+    },
+    "title": {
+      "translate": "block.minecraft.smooth_sandstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smooth_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smooth_sandstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smooth_sandstone"
+  }
+}

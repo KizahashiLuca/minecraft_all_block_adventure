@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_gray_concrete",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.gray_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gray_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gray_concrete"
+  }
+}

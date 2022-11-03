@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cracked_deepslate_tiles",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "block.minecraft.chiseled_deepslate"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "chiseled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chiseled_deepslate"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/chiseled_deepslate"
+  }
+}

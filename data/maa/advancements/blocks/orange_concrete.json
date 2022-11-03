@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/red_concrete",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.orange_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "orange_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["orange_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/orange_concrete"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/gray_concrete",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.black_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "black_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["black_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/black_concrete"
+  }
+}

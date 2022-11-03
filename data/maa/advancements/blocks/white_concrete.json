@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.white_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "white_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["white_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/white_concrete"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "block.minecraft.bee_nest"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "bee_nest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bee_nest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["bee_nest"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/bee_nest"
+  }
+}

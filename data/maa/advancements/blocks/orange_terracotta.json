@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/red_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.orange_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "orange_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["orange_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/orange_terracotta"
+  }
+}

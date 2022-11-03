@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_acacia_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.acacia_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["acacia_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/acacia_planks"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cobblestone",
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "block.minecraft.mossy_cobblestone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "mossy_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mossy_cobblestone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/mossy_cobblestone"
+  }
+}

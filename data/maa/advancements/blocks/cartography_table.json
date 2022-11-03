@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/crafting_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "block.minecraft.cartography_table"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cartography_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cartography_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cartography_table"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cartography_table"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/jukebox",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "block.minecraft.beacon"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beacon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["beacon"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/beacon"
+  }
+}

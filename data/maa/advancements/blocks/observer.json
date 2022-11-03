@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sticky_piston",
+  "display": {
+    "icon": {
+      "item": "minecraft:observer"
+    },
+    "title": {
+      "translate": "block.minecraft.observer"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "observer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:observer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["observer"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/observer"
+  }
+}

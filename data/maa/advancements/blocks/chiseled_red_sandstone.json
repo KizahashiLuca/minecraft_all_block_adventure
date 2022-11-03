@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/smooth_red_sandstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "block.minecraft.chiseled_red_sandstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "chiseled_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chiseled_red_sandstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/chiseled_red_sandstone"
+  }
+}

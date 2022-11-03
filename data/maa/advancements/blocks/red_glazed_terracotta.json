@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/brown_glazed_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_glazed_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.red_glazed_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "red_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["red_glazed_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/red_glazed_terracotta"
+  }
+}

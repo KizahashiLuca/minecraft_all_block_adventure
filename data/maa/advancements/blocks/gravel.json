@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/rooted_dirt",
+  "display": {
+    "icon": {
+      "item": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "block.minecraft.gravel"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gravel"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gravel"
+  }
+}

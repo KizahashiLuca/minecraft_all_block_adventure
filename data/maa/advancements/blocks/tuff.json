@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/calcite",
+  "display": {
+    "icon": {
+      "item": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "block.minecraft.tuff"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["tuff"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/tuff"
+  }
+}

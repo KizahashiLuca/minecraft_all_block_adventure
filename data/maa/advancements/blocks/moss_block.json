@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/jack_o_lantern",
+  "display": {
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "block.minecraft.moss_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "moss_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["moss_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/moss_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/blue_concrete_powder",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_concrete_powder"
+    },
+    "title": {
+      "translate": "block.minecraft.purple_concrete_powder"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "purple_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["purple_concrete_powder"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/purple_concrete_powder"
+  }
+}

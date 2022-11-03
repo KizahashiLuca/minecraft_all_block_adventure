@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/birch_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_birch_log"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_birch_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_birch_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_birch_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_birch_log"
+  }
+}

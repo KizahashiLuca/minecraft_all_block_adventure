@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "block.minecraft.purpur_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "purpur_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purpur_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["purpur_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/purpur_block"
+  }
+}

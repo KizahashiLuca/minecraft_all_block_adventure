@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/old_growth_spruce_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/old_growth_pine_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/windswept_gravelly_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/windswept_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/stony_shore"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/cold/windswept_forest"
+    }
+  ]
+}

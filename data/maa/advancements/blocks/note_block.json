@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/blast_furnace",
+  "display": {
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "block.minecraft.note_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "note_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:note_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["note_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/note_block"
+  }
+}

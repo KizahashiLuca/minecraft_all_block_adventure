@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/crimson_stem",
+  "display": {
+    "icon": {
+      "item": "minecraft:crimson_hyphae"
+    },
+    "title": {
+      "translate": "block.minecraft.crimson_hyphae"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_hyphae"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crimson_hyphae"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/crimson_hyphae"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/prismarine_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "title": {
+      "translate": "block.minecraft.dark_prismarine"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dark_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_prismarine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dark_prismarine"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dark_prismarine"
+  }
+}

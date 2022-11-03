@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/polished_blackstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.polished_blackstone_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["polished_blackstone_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/polished_blackstone_bricks"
+  }
+}

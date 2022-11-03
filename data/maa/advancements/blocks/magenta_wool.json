@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/purple_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.magenta_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "magenta_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["magenta_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/magenta_wool"
+  }
+}

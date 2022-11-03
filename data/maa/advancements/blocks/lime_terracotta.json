@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/yellow_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.lime_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "lime_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lime_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/lime_terracotta"
+  }
+}

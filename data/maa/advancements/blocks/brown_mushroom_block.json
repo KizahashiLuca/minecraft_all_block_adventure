@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/red_mushroom_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_mushroom_block"
+    },
+    "title": {
+      "translate": "block.minecraft.brown_mushroom_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "brown_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["brown_mushroom_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/brown_mushroom_block"
+  }
+}

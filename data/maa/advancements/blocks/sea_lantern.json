@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "block.minecraft.sea_lantern"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "sea_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sea_lantern"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/sea_lantern"
+  }
+}

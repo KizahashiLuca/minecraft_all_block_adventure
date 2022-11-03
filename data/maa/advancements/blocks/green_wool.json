@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/lime_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:green_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.green_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "green_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["green_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/green_wool"
+  }
+}

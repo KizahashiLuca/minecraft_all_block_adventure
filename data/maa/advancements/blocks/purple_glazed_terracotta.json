@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/blue_glazed_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.purple_glazed_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "purple_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["purple_glazed_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/purple_glazed_terracotta"
+  }
+}

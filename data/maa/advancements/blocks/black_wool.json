@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/gray_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.black_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "black_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["black_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/black_wool"
+  }
+}

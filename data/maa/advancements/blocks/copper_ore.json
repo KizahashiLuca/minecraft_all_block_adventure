@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.copper_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["copper_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/copper_ore"
+  }
+}

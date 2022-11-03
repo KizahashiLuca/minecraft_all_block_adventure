@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/nether_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.cracked_nether_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cracked_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_nether_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cracked_nether_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cracked_nether_bricks"
+  }
+}

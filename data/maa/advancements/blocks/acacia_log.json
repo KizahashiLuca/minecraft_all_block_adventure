@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_log"
+    },
+    "title": {
+      "translate": "block.minecraft.acacia_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["acacia_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/acacia_log"
+  }
+}

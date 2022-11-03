@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_other/the_void"
+    }
+  ]
+}

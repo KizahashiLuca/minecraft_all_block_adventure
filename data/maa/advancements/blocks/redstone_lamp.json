@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/tnt",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "title": {
+      "translate": "block.minecraft.redstone_lamp"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "redstone_lamp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_lamp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["redstone_lamp"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/redstone_lamp"
+  }
+}

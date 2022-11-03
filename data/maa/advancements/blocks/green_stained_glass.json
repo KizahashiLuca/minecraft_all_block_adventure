@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/lime_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.green_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "green_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["green_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/green_stained_glass"
+  }
+}

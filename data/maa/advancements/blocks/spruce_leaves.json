@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/spruce_planks",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_leaves"
+    },
+    "title": {
+      "translate": "block.minecraft.spruce_leaves"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "spruce_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["spruce_leaves"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/spruce_leaves"
+  }
+}

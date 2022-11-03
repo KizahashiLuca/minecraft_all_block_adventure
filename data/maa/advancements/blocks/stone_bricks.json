@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/smooth_stone",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.stone_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stone_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stone_bricks"
+  }
+}

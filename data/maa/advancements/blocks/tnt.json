@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/target",
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "block.minecraft.tnt"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["tnt"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/tnt"
+  }
+}

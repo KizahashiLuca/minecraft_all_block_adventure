@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/melon",
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "block.minecraft.pumpkin"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["pumpkin"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/pumpkin"
+  }
+}

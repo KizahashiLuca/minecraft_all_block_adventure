@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/basalt",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_basalt"
+    },
+    "title": {
+      "translate": "block.minecraft.smooth_basalt"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smooth_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smooth_basalt"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smooth_basalt"
+  }
+}

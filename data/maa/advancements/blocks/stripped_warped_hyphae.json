@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_warped_stem",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_warped_hyphae"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_warped_hyphae"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_warped_hyphae"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_warped_hyphae"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_warped_hyphae"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/coarse_dirt",
+  "display": {
+    "icon": {
+      "item": "minecraft:rooted_dirt"
+    },
+    "title": {
+      "translate": "block.minecraft.rooted_dirt"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "rooted_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rooted_dirt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["rooted_dirt"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/rooted_dirt"
+  }
+}

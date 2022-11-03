@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/bee_nest",
+  "display": {
+    "icon": {
+      "item": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "block.minecraft.beehive"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "beehive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beehive"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["beehive"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/beehive"
+  }
+}

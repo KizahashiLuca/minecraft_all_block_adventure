@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/chiseled_polished_blackstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "block.minecraft.gilded_blackstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gilded_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gilded_blackstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gilded_blackstone"
+  }
+}

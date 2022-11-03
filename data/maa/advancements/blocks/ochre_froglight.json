@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "translate": "block.minecraft.ochre_froglight"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "ochre_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ochre_froglight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["ochre_froglight"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/ochre_froglight"
+  }
+}

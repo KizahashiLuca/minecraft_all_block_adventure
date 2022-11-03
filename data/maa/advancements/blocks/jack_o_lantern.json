@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/carved_pumpkin",
+  "display": {
+    "icon": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "title": {
+      "translate": "block.minecraft.jack_o_lantern"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "jack_o_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jack_o_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["jack_o_lantern"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/jack_o_lantern"
+  }
+}

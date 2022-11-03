@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_gray_concrete_powder",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    "title": {
+      "translate": "block.minecraft.gray_concrete_powder"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "gray_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["gray_concrete_powder"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/gray_concrete_powder"
+  }
+}

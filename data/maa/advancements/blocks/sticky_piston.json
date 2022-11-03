@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/piston",
+  "display": {
+    "icon": {
+      "item": "minecraft:sticky_piston"
+    },
+    "title": {
+      "translate": "block.minecraft.sticky_piston"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "sticky_piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sticky_piston"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sticky_piston"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/sticky_piston"
+  }
+}

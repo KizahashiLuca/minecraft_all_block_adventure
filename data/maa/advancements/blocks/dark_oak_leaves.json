@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/dark_oak_planks",
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "title": {
+      "translate": "block.minecraft.dark_oak_leaves"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dark_oak_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dark_oak_leaves"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dark_oak_leaves"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mycelium",
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "block.minecraft.dirt"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dirt"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dirt"
+  }
+}

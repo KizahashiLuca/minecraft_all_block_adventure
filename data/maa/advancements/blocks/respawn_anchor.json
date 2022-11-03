@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/barrel",
+  "display": {
+    "icon": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "block.minecraft.respawn_anchor"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "respawn_anchor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:respawn_anchor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["respawn_anchor"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/respawn_anchor"
+  }
+}

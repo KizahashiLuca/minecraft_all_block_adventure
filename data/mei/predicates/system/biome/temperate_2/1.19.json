@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/bamboo_jungle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/beach"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/jungle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/sparse_jungle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/mushroom_fields"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/swamp"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/mangrove_swamp"
+    }
+  ]
+}

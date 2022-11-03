@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:calcite"
+    },
+    "title": {
+      "translate": "block.minecraft.calcite"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "calcite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["calcite"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/calcite"
+  }
+}

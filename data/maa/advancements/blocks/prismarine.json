@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sea_lantern",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": {
+      "translate": "block.minecraft.prismarine"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["prismarine"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/prismarine"
+  }
+}

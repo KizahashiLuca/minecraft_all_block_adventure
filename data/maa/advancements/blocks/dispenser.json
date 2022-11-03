@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/observer",
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "block.minecraft.dispenser"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dispenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dispenser"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dispenser"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dispenser"
+  }
+}

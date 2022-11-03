@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/dispenser",
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper"
+    },
+    "title": {
+      "translate": "block.minecraft.dropper"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dropper"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dropper"
+  }
+}

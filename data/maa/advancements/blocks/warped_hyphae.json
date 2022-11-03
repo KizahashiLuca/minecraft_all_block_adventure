@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/warped_stem",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_hyphae"
+    },
+    "title": {
+      "translate": "block.minecraft.warped_hyphae"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_hyphae"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["warped_hyphae"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/warped_hyphae"
+  }
+}

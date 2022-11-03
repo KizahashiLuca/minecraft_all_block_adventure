@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/deepslate_tiles",
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_deepslate_tiles"
+    },
+    "title": {
+      "translate": "block.minecraft.cracked_deepslate_tiles"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cracked_deepslate_tiles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_tiles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cracked_deepslate_tiles"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cracked_deepslate_tiles"
+  }
+}

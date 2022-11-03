@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sand",
+  "display": {
+    "icon": {
+      "item": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "block.minecraft.sandstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sandstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/sandstone"
+  }
+}

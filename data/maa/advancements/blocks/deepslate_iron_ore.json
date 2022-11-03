@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/iron_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_iron_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate_iron_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate_iron_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate_iron_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate_iron_ore"
+  }
+}

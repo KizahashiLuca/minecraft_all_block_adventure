@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"MEI_DoneSetUpBiome\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "MEI_SetBiome": {
+        "min": 1,
+        "max": 2147483647
+      }
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/red_sandstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    "title": {
+      "translate": "block.minecraft.smooth_red_sandstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smooth_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smooth_red_sandstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smooth_red_sandstone"
+  }
+}

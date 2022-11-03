@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mangrove_roots",
+  "display": {
+    "icon": {
+      "item": "minecraft:muddy_mangrove_roots"
+    },
+    "title": {
+      "translate": "block.minecraft.muddy_mangrove_roots"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "muddy_mangrove_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:muddy_mangrove_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["muddy_mangrove_roots"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/muddy_mangrove_roots"
+  }
+}

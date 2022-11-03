@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/deepslate",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "block.minecraft.cobbled_deepslate"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cobbled_deepslate"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cobbled_deepslate"
+  }
+}

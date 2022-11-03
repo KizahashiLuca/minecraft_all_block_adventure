@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/pumpkin",
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "block.minecraft.carved_pumpkin"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "carved_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["carved_pumpkin"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/carved_pumpkin"
+  }
+}

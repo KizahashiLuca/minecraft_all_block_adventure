@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/prismarine",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.prismarine_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "prismarine_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["prismarine_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/prismarine_bricks"
+  }
+}

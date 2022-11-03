@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_blue_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.blue_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "blue_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["blue_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/blue_terracotta"
+  }
+}

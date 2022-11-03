@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/blue_ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "block.minecraft.snow_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snow_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["snow_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/snow_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_jungle_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_jungle_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_jungle_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_jungle_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_jungle_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_jungle_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_jungle_wood"
+  }
+}

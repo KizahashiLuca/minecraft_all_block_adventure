@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:clay"
+    },
+    "title": {
+      "translate": "block.minecraft.clay"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clay"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["clay"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/clay"
+  }
+}

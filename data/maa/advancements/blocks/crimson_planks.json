@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_crimson_hyphae",
+  "display": {
+    "icon": {
+      "item": "minecraft:crimson_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.crimson_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crimson_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/crimson_planks"
+  }
+}

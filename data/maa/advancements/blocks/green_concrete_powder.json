@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/lime_concrete_powder",
+  "display": {
+    "icon": {
+      "item": "minecraft:green_concrete_powder"
+    },
+    "title": {
+      "translate": "block.minecraft.green_concrete_powder"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "green_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["green_concrete_powder"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/green_concrete_powder"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/deepslate_diamond_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "block.minecraft.diamond_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "diamond_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["diamond_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/diamond_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/verdant_froglight",
+  "display": {
+    "icon": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "title": {
+      "translate": "block.minecraft.pearlescent_froglight"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "pearlescent_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pearlescent_froglight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["pearlescent_froglight"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/pearlescent_froglight"
+  }
+}

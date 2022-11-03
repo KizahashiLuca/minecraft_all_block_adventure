@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/ancient_debris",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "block.minecraft.netherite_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "netherite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["netherite_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/netherite_block"
+  }
+}

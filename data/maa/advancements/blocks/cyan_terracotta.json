@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/green_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.cyan_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cyan_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cyan_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cyan_terracotta"
+  }
+}

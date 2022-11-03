@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mangrove_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.mangrove_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "mangrove_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mangrove_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/mangrove_wood"
+  }
+}

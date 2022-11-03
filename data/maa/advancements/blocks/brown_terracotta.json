@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/black_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.brown_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "brown_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["brown_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/brown_terracotta"
+  }
+}

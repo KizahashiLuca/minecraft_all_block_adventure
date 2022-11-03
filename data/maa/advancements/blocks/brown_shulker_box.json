@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/black_shulker_box",
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_shulker_box"
+    },
+    "title": {
+      "translate": "block.minecraft.brown_shulker_box"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "brown_shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["brown_shulker_box"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/brown_shulker_box"
+  }
+}

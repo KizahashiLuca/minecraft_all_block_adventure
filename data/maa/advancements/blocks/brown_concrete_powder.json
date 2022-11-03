@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/black_concrete_powder",
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    "title": {
+      "translate": "block.minecraft.brown_concrete_powder"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "brown_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["brown_concrete_powder"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/brown_concrete_powder"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "block.minecraft.soul_sand"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["soul_sand"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/soul_sand"
+  }
+}

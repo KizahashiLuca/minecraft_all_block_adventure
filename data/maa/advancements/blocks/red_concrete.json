@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/brown_concrete",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.red_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "red_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["red_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/red_concrete"
+  }
+}

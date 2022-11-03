@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/birch_planks",
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_leaves"
+    },
+    "title": {
+      "translate": "block.minecraft.birch_leaves"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "birch_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["birch_leaves"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/birch_leaves"
+  }
+}

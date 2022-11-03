@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/tuff",
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "block.minecraft.amethyst_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "amethyst_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["amethyst_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/amethyst_block"
+  }
+}

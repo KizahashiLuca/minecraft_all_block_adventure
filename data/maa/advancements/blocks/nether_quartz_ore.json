@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/nether_gold_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.nether_quartz_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "nether_quartz_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_quartz_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["nether_quartz_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/nether_quartz_ore"
+  }
+}

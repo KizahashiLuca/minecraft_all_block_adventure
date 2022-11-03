@@ -1,0 +1,45 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/cold_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/deep_cold_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/deep_frozen_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/deep_lukewarm_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/deep_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/deep_warm_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/frozen_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/lukewarm_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/ocean/warm_ocean"
+    }
+  ]
+}

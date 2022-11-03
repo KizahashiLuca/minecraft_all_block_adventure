@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cracked_polished_blackstone_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    "title": {
+      "translate": "block.minecraft.chiseled_polished_blackstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "chiseled_polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_polished_blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chiseled_polished_blackstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/chiseled_polished_blackstone"
+  }
+}

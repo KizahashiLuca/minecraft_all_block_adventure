@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/mossy_cobblestone",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_stone"
+    },
+    "title": {
+      "translate": "block.minecraft.smooth_stone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smooth_stone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smooth_stone"
+  }
+}

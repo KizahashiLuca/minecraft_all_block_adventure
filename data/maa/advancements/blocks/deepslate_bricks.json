@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/polished_deepslate",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate_bricks"
+  }
+}

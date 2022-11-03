@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/cyan_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.light_blue_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "light_blue_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["light_blue_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/light_blue_stained_glass"
+  }
+}

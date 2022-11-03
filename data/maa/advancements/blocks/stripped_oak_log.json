@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/oak_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_oak_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_oak_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_oak_log"
+  }
+}

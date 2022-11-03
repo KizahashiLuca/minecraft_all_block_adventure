@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/andesite",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_andesite"
+    },
+    "title": {
+      "translate": "block.minecraft.polished_andesite"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "polished_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_andesite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["polished_andesite"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/polished_andesite"
+  }
+}

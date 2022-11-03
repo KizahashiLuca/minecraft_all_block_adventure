@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/lapis_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_lapis_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate_lapis_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate_lapis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_lapis_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate_lapis_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate_lapis_ore"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/chiseled_sandstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "title": {
+      "translate": "block.minecraft.cut_sandstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "cut_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cut_sandstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/cut_sandstone"
+  }
+}

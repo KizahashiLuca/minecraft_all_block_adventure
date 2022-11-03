@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/dark_prismarine",
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "block.minecraft.sponge"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sponge"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/sponge"
+  }
+}

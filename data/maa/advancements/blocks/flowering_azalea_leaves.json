@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/azalea_leaves",
+  "display": {
+    "icon": {
+      "item": "minecraft:flowering_azalea_leaves"
+    },
+    "title": {
+      "translate": "block.minecraft.flowering_azalea_leaves"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "flowering_azalea_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flowering_azalea_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["flowering_azalea_leaves"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/flowering_azalea_leaves"
+  }
+}

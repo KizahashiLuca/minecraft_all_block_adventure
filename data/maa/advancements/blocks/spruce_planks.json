@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_spruce_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.spruce_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["spruce_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/spruce_planks"
+  }
+}

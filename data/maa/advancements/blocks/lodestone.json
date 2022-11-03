@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/beacon",
+  "display": {
+    "icon": {
+      "item": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "block.minecraft.lodestone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "lodestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lodestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lodestone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/lodestone"
+  }
+}

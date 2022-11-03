@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/quartz_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "block.minecraft.quartz_pillar"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "quartz_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_pillar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["quartz_pillar"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/quartz_pillar"
+  }
+}

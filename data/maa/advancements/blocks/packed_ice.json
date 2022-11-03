@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "block.minecraft.packed_ice"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "packed_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:packed_ice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["packed_ice"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/packed_ice"
+  }
+}

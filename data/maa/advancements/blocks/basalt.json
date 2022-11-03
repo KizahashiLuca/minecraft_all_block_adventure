@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "block.minecraft.basalt"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["basalt"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/basalt"
+  }
+}

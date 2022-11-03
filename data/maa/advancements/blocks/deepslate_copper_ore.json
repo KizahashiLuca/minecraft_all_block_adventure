@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/copper_ore",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_copper_ore"
+    },
+    "title": {
+      "translate": "block.minecraft.deepslate_copper_ore"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "deepslate_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_copper_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deepslate_copper_ore"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/deepslate_copper_ore"
+  }
+}

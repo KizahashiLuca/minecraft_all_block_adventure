@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_log"
+    },
+    "title": {
+      "translate": "block.minecraft.birch_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["birch_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/birch_log"
+  }
+}

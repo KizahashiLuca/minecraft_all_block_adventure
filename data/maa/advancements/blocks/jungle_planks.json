@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_jungle_wood",
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_planks"
+    },
+    "title": {
+      "translate": "block.minecraft.jungle_planks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["jungle_planks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/jungle_planks"
+  }
+}

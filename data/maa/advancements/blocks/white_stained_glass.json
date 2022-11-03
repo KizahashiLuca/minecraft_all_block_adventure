@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/tinted_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_stained_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.white_stained_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "white_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["white_stained_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/white_stained_glass"
+  }
+}

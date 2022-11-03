@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/bookshelf",
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "block.minecraft.barrel"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["barrel"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/barrel"
+  }
+}

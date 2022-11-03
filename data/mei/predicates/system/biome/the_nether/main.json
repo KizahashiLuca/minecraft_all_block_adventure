@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_nether/basalt_deltas"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_nether/crimson_forest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_nether/nether_wastes"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_nether/soul_sand_valley"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_nether/warped_forest"
+    }
+  ]
+}

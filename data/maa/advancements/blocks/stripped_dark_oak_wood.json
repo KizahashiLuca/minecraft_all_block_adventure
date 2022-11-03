@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/stripped_dark_oak_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_dark_oak_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.stripped_dark_oak_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "stripped_dark_oak_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_dark_oak_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stripped_dark_oak_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/stripped_dark_oak_wood"
+  }
+}

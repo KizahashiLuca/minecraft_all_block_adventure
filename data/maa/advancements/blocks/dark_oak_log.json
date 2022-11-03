@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "block.minecraft.dark_oak_log"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "dark_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["dark_oak_log"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/dark_oak_log"
+  }
+}

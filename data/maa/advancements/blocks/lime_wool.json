@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/yellow_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.lime_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "lime_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lime_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/lime_wool"
+  }
+}

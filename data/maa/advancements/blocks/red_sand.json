@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "block.minecraft.red_sand"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "red_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["red_sand"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/red_sand"
+  }
+}

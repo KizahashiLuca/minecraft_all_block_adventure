@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/grass_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:podzol"
+    },
+    "title": {
+      "translate": "block.minecraft.podzol"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "podzol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:podzol"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["podzol"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/podzol"
+  }
+}

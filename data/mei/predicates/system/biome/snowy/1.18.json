@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/snowy/frozen_river"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/snowy/ice_spikes"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/snowy/snowy_beach"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/snowy/snowy_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/snowy/snowy_plains"
+    }
+  ]
+}

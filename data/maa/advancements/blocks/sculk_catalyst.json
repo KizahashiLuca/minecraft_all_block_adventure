@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sculk",
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "block.minecraft.sculk_catalyst"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "sculk_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_catalyst"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sculk_catalyst"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/sculk_catalyst"
+  }
+}

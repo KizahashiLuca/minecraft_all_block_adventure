@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/light_blue_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.blue_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["blue_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/blue_wool"
+  }
+}

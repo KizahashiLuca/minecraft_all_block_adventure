@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/smoker",
+  "display": {
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "title": {
+      "translate": "block.minecraft.blast_furnace"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "blast_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["blast_furnace"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/blast_furnace"
+  }
+}

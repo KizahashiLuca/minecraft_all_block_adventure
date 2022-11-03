@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:tinted_glass"
+    },
+    "title": {
+      "translate": "block.minecraft.tinted_glass"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tinted_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tinted_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["tinted_glass"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/tinted_glass"
+  }
+}

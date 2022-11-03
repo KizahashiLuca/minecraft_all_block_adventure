@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/warped_wart_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:shroomlight"
+    },
+    "title": {
+      "translate": "block.minecraft.shroomlight"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "shroomlight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shroomlight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["shroomlight"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/shroomlight"
+  }
+}

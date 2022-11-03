@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/chiseled_nether_bricks",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "title": {
+      "translate": "block.minecraft.red_nether_bricks"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "red_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_nether_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["red_nether_bricks"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/red_nether_bricks"
+  }
+}

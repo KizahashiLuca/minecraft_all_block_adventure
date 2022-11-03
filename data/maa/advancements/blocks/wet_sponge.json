@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/sponge",
+  "display": {
+    "icon": {
+      "item": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "block.minecraft.wet_sponge"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "wet_sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wet_sponge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["wet_sponge"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/wet_sponge"
+  }
+}

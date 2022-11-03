@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "block.minecraft.shulker_box"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["shulker_box"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/shulker_box"
+  }
+}

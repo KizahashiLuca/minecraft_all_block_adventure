@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/podzol",
+  "display": {
+    "icon": {
+      "item": "minecraft:mycelium"
+    },
+    "title": {
+      "translate": "block.minecraft.mycelium"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "mycelium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mycelium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mycelium"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/mycelium"
+  }
+}

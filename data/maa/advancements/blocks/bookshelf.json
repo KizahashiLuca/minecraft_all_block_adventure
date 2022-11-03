@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/lodestone",
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "block.minecraft.bookshelf"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bookshelf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["bookshelf"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/bookshelf"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/yellow_glazed_terracotta",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "title": {
+      "translate": "block.minecraft.lime_glazed_terracotta"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "lime_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lime_glazed_terracotta"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/lime_glazed_terracotta"
+  }
+}

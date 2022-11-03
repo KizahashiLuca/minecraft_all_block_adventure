@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/moss_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "block.minecraft.hay_block"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "hay_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hay_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["hay_block"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/hay_block"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/quartz_pillar",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "translate": "block.minecraft.smooth_quartz"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "smooth_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smooth_quartz"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/smooth_quartz"
+  }
+}

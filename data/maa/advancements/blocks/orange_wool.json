@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/red_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_wool"
+    },
+    "title": {
+      "translate": "block.minecraft.orange_wool"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "orange_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["orange_wool"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/orange_wool"
+  }
+}

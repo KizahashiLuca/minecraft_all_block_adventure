@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_stem"
+    },
+    "title": {
+      "translate": "block.minecraft.warped_stem"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["warped_stem"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/warped_stem"
+  }
+}

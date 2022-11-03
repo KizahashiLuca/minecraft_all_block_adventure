@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/purple_concrete",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "title": {
+      "translate": "block.minecraft.magenta_concrete"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "magenta_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["magenta_concrete"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/magenta_concrete"
+  }
+}

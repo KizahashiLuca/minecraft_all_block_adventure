@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/magma_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "block.minecraft.glowstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["glowstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/glowstone"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/magenta_concrete_powder",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    "title": {
+      "translate": "block.minecraft.pink_concrete_powder"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "pink_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["pink_concrete_powder"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/pink_concrete_powder"
+  }
+}

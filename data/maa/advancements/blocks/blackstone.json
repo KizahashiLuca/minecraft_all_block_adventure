@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "block.minecraft.blackstone"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["blackstone"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/blackstone"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "maa:blocks/spruce_log",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_wood"
+    },
+    "title": {
+      "translate": "block.minecraft.spruce_wood"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "spruce_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["spruce_wood"]
+  ],
+  "rewards": {
+    "function": "maa:blocks/spruce_wood"
+  }
+}
