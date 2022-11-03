@@ -9,8 +9,6 @@
 
 ## Start
 time set 6000
-execute align xyz run worldborder center ~ ~
-worldborder set 16
 
 ## Revoke advancements
 advancement revoke @a everything
@@ -28,6 +26,3 @@ scoreboard players set @a Death 0
 scoreboard players set 死亡数 BlockCount 0
 scoreboard players set ブロック数 BlockCount 0
 scoreboard players set #maa Reseted 1
-
-## Set statistics
-function maa:statistics/main
