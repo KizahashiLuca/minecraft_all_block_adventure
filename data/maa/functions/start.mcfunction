@@ -10,6 +10,9 @@
 ## Start
 time set 6000
 
+## Set gamemode
+gamemode adventure @a
+
 ## Revoke advancements
 advancement revoke @a everything
 advancement grant @a only maa:blocks
@@ -25,4 +28,3 @@ scoreboard objectives setdisplay sidebar BlockCount
 scoreboard players set @a Death 0
 scoreboard players set 死亡数 BlockCount 0
 scoreboard players set ブロック数 BlockCount 0
-scoreboard players set #maa Reseted 1
