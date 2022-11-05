@@ -17,7 +17,3 @@ function mei:unload/remove_storage
 
 ## Set scoreboards
 function mei:load/set_scoreboard
-## Detect version
-function mei:load/detect_version
-## Set tags
-function mei:load/set_tag

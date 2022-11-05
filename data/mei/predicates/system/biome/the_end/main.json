@@ -15,7 +15,7 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/smaal_end_islands"
+      "name": "mei:system/biome/the_end/small_end_islands"
     },
     {
       "condition": "minecraft:reference",

@@ -12,7 +12,3 @@ gamerule maxCommandChainLength 65536
 
 ## Set scoreboards
 function mei:load/set_scoreboard
-## Detect version
-function mei:load/detect_version
-## Set tags
-function mei:load/set_tag

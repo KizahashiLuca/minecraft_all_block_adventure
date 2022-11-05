@@ -8,4 +8,4 @@
 ##################################
 
 ## OnTick
-execute if predicate mei:system/on_load run function mei:main
+function mei:main
