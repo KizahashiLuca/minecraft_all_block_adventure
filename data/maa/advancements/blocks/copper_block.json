@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_copper_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:copper_block"

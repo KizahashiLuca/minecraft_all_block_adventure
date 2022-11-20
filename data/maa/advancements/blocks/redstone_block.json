@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_redstone_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:redstone_block"

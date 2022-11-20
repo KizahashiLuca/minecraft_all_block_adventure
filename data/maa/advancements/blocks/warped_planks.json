@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/stripped_warped_hyphae",
+  "parent": "maa:blocks/warped_hyphae",
   "display": {
     "icon": {
       "item": "minecraft:warped_planks"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_emerald_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:emerald_block"

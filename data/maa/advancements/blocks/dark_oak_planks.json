@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/stripped_dark_oak_wood",
+  "parent": "maa:blocks/dark_oak_wood",
   "display": {
     "icon": {
       "item": "minecraft:dark_oak_planks"

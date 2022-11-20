@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_lapis_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:lapis_block"

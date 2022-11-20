@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_coal_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:coal_block"

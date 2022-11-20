@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/nether_quartz_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:ancient_debris"

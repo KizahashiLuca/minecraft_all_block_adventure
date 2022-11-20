@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/stripped_mangrove_wood",
+  "parent": "maa:blocks/mangrove_wood",
   "display": {
     "icon": {
       "item": "minecraft:mangrove_planks"

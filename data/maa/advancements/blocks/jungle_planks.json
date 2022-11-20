@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/stripped_jungle_wood",
+  "parent": "maa:blocks/jungle_wood",
   "display": {
     "icon": {
       "item": "minecraft:jungle_planks"

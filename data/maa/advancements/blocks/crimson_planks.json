@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/stripped_crimson_hyphae",
+  "parent": "maa:blocks/crimson_hyphae",
   "display": {
     "icon": {
       "item": "minecraft:crimson_planks"

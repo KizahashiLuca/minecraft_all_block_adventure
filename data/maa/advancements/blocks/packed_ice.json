@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/ice",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:packed_ice"

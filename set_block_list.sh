@@ -15,20 +15,31 @@ declare -a ColorArray=("white" "light_gray" "gray" "black" "brown" "red" "orange
 
 ## Read CSV
 i=0
+j=0
 declare -a ItemArray=()
 while read R; do
   col[0]=`echo ${R} | cut -d , -f 1`
-  ItemArray+=( "${col[0]}" )
-
-  ## Skip first row
+  col[1]=`echo ${R} | cut -d , -f 2`
+  col[2]=`echo ${R} | cut -d , -f 3`
+  ## Skip row
   if [ "${col[0]}" = "" ]; then
     i=0
+    j=$((j+1))
+    echo $j
     declare -a ItemArray=()
+    continue;
+  fi
+
+  ## Store blocks
+  if [ "${col[1]}" = "x" ]; then
+    ItemArray+=( "${col[0]}" )
+  elif [ "${col[1]}" = "" ]; then
     continue;
   fi
 
   ## Add lines
   AdvancementsJson=./data/maa/advancements/blocks/${ItemArray[$i]}.json
+  echo ${col[0]} ${col[1]} ${ItemArray[$i]}
   if [ $i == 0 ]; then
     parent=blocks
   else
@@ -88,7 +99,7 @@ EOS
 function maa:block_count/main
 
 ## Send message
-tellraw @a ["",{"text":"[MAA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.${ItemArray[$i]}","color":"green"},{"text":"を入手。"}]
+tellraw @a ["",{"text":"[GABA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.${ItemArray[$i]}","color":"green"},{"text":"を入手。"}]
 EOS
 
   ## Increment

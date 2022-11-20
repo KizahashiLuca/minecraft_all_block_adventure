@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_gold_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:gold_block"

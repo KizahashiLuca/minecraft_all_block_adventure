@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate_iron_ore",
+  "parent": "maa:blocks",
   "display": {
     "icon": {
       "item": "minecraft:iron_block"

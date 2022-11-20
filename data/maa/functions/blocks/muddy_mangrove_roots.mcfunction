@@ -11,4 +11,4 @@
 function maa:block_count/main
 
 ## Send message
-tellraw @a ["",{"text":"[MAA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.muddy_mangrove_roots","color":"green"},{"text":"を入手。"}]
+tellraw @a ["",{"text":"[GABA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.muddy_mangrove_roots","color":"green"},{"text":"を入手。"}]
