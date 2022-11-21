@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/raw_copper_block",
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "item": "minecraft:copper_block"
     },
     "title": {
-      "translate": "block.minecraft.ancient_debris"
+      "translate": "block.minecraft.copper_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "ancient_debris": {
+    "copper_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:ancient_debris"
+              "minecraft:copper_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["ancient_debris"]
+    ["copper_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/ancient_debris"
+    "function": "maa:blocks/copper_block"
   }
 }

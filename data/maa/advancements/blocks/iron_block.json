@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks/jukebox",
+  "parent": "maa:blocks/raw_iron_block",
   "display": {
     "icon": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:iron_block"
     },
     "title": {
-      "translate": "block.minecraft.beacon"
+      "translate": "block.minecraft.iron_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "beacon": {
+    "iron_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:beacon"
+              "minecraft:iron_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["beacon"]
+    ["iron_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/beacon"
+    "function": "maa:blocks/iron_block"
   }
 }

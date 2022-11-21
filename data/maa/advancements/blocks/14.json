@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:white_concrete_powder"
     },
     "title": {
-      "translate": "block.minecraft.iron_block"
+      "translate": "block.minecraft.white_concrete_powder"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "iron_block": {
+    "white_concrete_powder": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:iron_block"
+              "minecraft:white_concrete_powder"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["iron_block"]
+    ["white_concrete_powder"]
   ],
   "rewards": {
-    "function": "maa:blocks/iron_block"
+    "function": "maa:blocks/white_concrete_powder"
   }
 }

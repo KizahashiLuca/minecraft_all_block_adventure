@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/46",
   "display": {
     "icon": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:tube_coral_block"
     },
     "title": {
-      "translate": "block.minecraft.emerald_block"
+      "translate": "block.minecraft.tube_coral_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "emerald_block": {
+    "tube_coral_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:emerald_block"
+              "minecraft:tube_coral_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["emerald_block"]
+    ["tube_coral_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/emerald_block"
+    "function": "maa:blocks/tube_coral_block"
   }
 }

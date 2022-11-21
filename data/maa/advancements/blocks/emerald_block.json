@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/redstone_block",
   "display": {
     "icon": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:emerald_block"
     },
     "title": {
-      "translate": "block.minecraft.shulker_box"
+      "translate": "block.minecraft.emerald_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "shulker_box": {
+    "emerald_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:shulker_box"
+              "minecraft:emerald_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["shulker_box"]
+    ["emerald_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/shulker_box"
+    "function": "maa:blocks/emerald_block"
   }
 }

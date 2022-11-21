@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:end_stone"
     },
     "title": {
-      "translate": "block.minecraft.quartz_block"
+      "translate": "block.minecraft.end_stone"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "quartz_block": {
+    "end_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:quartz_block"
+              "minecraft:end_stone"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["quartz_block"]
+    ["end_stone"]
   ],
   "rewards": {
-    "function": "maa:blocks/quartz_block"
+    "function": "maa:blocks/end_stone"
   }
 }

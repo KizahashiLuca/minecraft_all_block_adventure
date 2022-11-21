@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:coal_block"
     },
     "title": {
-      "translate": "block.minecraft.netherrack"
+      "translate": "block.minecraft.coal_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "netherrack": {
+    "coal_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherrack"
+              "minecraft:coal_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["netherrack"]
+    ["coal_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/netherrack"
+    "function": "maa:blocks/coal_block"
   }
 }

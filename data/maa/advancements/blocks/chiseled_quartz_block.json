@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/43",
+  "parent": "maa:blocks/42",
   "display": {
     "icon": {
       "item": "minecraft:chiseled_quartz_block"

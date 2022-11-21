@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/16",
+  "parent": "maa:blocks/cut_copper",
   "display": {
     "icon": {
       "item": "minecraft:raw_gold_block"

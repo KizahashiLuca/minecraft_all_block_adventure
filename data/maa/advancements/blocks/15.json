@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:copper_block"
+      "item": "minecraft:glass"
     },
     "title": {
-      "translate": "block.minecraft.copper_block"
+      "translate": "block.minecraft.glass"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "copper_block": {
+    "glass": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:copper_block"
+              "minecraft:glass"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["copper_block"]
+    ["glass"]
   ],
   "rewards": {
-    "function": "maa:blocks/copper_block"
+    "function": "maa:blocks/glass"
   }
 }

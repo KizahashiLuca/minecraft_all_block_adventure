@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:white_glazed_terracotta"
     },
     "title": {
-      "translate": "block.minecraft.purpur_block"
+      "translate": "block.minecraft.white_glazed_terracotta"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "purpur_block": {
+    "white_glazed_terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:purpur_block"
+              "minecraft:white_glazed_terracotta"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["purpur_block"]
+    ["white_glazed_terracotta"]
   ],
   "rewards": {
-    "function": "maa:blocks/purpur_block"
+    "function": "maa:blocks/white_glazed_terracotta"
   }
 }

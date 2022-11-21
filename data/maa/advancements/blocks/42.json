@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:quartz_block"
     },
     "title": {
-      "translate": "block.minecraft.packed_ice"
+      "translate": "block.minecraft.quartz_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "packed_ice": {
+    "quartz_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:packed_ice"
+              "minecraft:quartz_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["packed_ice"]
+    ["quartz_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/packed_ice"
+    "function": "maa:blocks/quartz_block"
   }
 }

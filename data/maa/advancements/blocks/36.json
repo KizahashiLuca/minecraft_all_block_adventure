@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:glass"
+      "item": "minecraft:packed_ice"
     },
     "title": {
-      "translate": "block.minecraft.glass"
+      "translate": "block.minecraft.packed_ice"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "glass": {
+    "packed_ice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:glass"
+              "minecraft:packed_ice"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["glass"]
+    ["packed_ice"]
   ],
   "rewards": {
-    "function": "maa:blocks/glass"
+    "function": "maa:blocks/packed_ice"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/emerald_block",
   "display": {
     "icon": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:lapis_block"
     },
     "title": {
-      "translate": "block.minecraft.magma_block"
+      "translate": "block.minecraft.lapis_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "magma_block": {
+    "lapis_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:magma_block"
+              "minecraft:lapis_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["magma_block"]
+    ["lapis_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/magma_block"
+    "function": "maa:blocks/lapis_block"
   }
 }

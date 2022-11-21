@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:mud"
+      "item": "minecraft:magma_block"
     },
     "title": {
-      "translate": "block.minecraft.mud"
+      "translate": "block.minecraft.magma_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "mud": {
+    "magma_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:mud"
+              "minecraft:magma_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["mud"]
+    ["magma_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/mud"
+    "function": "maa:blocks/magma_block"
   }
 }

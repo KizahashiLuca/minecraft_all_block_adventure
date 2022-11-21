@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/raw_gold_block",
   "display": {
     "icon": {
-      "item": "minecraft:piston"
+      "item": "minecraft:gold_block"
     },
     "title": {
-      "translate": "block.minecraft.piston"
+      "translate": "block.minecraft.gold_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "piston": {
+    "gold_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:piston"
+              "minecraft:gold_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["piston"]
+    ["gold_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/piston"
+    "function": "maa:blocks/gold_block"
   }
 }

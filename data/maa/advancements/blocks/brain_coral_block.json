@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/24",
+  "parent": "maa:blocks/tube_coral_block",
   "display": {
     "icon": {
       "item": "minecraft:brain_coral_block"

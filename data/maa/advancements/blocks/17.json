@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:shulker_box"
     },
     "title": {
-      "translate": "block.minecraft.redstone_block"
+      "translate": "block.minecraft.shulker_box"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "redstone_block": {
+    "shulker_box": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:redstone_block"
+              "minecraft:shulker_box"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["redstone_block"]
+    ["shulker_box"]
   ],
   "rewards": {
-    "function": "maa:blocks/redstone_block"
+    "function": "maa:blocks/shulker_box"
   }
 }

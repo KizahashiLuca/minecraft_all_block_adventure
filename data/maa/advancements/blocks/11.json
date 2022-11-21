@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:bricks"
     },
     "title": {
-      "translate": "block.minecraft.end_stone"
+      "translate": "block.minecraft.bricks"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "end_stone": {
+    "bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:end_stone"
+              "minecraft:bricks"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["end_stone"]
+    ["bricks"]
   ],
   "rewards": {
-    "function": "maa:blocks/end_stone"
+    "function": "maa:blocks/bricks"
   }
 }

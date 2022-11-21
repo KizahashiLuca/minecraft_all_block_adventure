@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:netherrack"
     },
     "title": {
-      "translate": "block.minecraft.white_wool"
+      "translate": "block.minecraft.netherrack"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "white_wool": {
+    "netherrack": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_wool"
+              "minecraft:netherrack"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["white_wool"]
+    ["netherrack"]
   ],
   "rewards": {
-    "function": "maa:blocks/white_wool"
+    "function": "maa:blocks/netherrack"
   }
 }

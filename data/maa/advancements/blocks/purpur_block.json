@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/end_stone_bricks",
   "display": {
     "icon": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:purpur_block"
     },
     "title": {
-      "translate": "block.minecraft.diamond_block"
+      "translate": "block.minecraft.purpur_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "diamond_block": {
+    "purpur_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:diamond_block"
+              "minecraft:purpur_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["diamond_block"]
+    ["purpur_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/diamond_block"
+    "function": "maa:blocks/purpur_block"
   }
 }

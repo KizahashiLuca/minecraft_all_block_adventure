@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:basalt"
     },
     "title": {
-      "translate": "block.minecraft.red_sand"
+      "translate": "block.minecraft.basalt"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "red_sand": {
+    "basalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:red_sand"
+              "minecraft:basalt"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["red_sand"]
+    ["basalt"]
   ],
   "rewards": {
-    "function": "maa:blocks/red_sand"
+    "function": "maa:blocks/basalt"
   }
 }

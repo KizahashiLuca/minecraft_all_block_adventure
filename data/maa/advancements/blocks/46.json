@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:dried_kelp_block"
     },
     "title": {
-      "translate": "block.minecraft.soul_sand"
+      "translate": "block.minecraft.dried_kelp_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "soul_sand": {
+    "dried_kelp_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:soul_sand"
+              "minecraft:dried_kelp_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["soul_sand"]
+    ["dried_kelp_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/soul_sand"
+    "function": "maa:blocks/dried_kelp_block"
   }
 }

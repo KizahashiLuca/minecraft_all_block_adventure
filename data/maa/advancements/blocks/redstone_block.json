@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:blocks/gold_block",
   "display": {
     "icon": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:redstone_block"
     },
     "title": {
-      "translate": "block.minecraft.dried_kelp_block"
+      "translate": "block.minecraft.redstone_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "dried_kelp_block": {
+    "redstone_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dried_kelp_block"
+              "minecraft:redstone_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["dried_kelp_block"]
+    ["redstone_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/dried_kelp_block"
+    "function": "maa:blocks/redstone_block"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/beacon",
+  "parent": "maa:blocks/jukebox",
   "display": {
     "icon": {
       "item": "minecraft:lodestone"

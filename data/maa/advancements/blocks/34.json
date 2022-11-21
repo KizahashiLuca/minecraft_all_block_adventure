@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:red_sand"
     },
     "title": {
-      "translate": "block.minecraft.coal_block"
+      "translate": "block.minecraft.red_sand"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "coal_block": {
+    "red_sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:coal_block"
+              "minecraft:red_sand"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["coal_block"]
+    ["red_sand"]
   ],
   "rewards": {
-    "function": "maa:blocks/coal_block"
+    "function": "maa:blocks/red_sand"
   }
 }

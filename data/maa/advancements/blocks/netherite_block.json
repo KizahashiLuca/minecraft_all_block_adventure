@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/21",
+  "parent": "maa:blocks/ancient_debris",
   "display": {
     "icon": {
       "item": "minecraft:netherite_block"

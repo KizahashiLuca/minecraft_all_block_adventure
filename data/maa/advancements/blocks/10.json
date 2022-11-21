@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:blackstone"
+      "item": "minecraft:piston"
     },
     "title": {
-      "translate": "block.minecraft.blackstone"
+      "translate": "block.minecraft.piston"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "blackstone": {
+    "piston": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:blackstone"
+              "minecraft:piston"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["blackstone"]
+    ["piston"]
   ],
   "rewards": {
-    "function": "maa:blocks/blackstone"
+    "function": "maa:blocks/piston"
   }
 }

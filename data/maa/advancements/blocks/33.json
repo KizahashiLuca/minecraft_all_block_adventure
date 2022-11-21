@@ -2,10 +2,10 @@
   "parent": "maa:blocks",
   "display": {
     "icon": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:sand"
     },
     "title": {
-      "translate": "block.minecraft.white_glazed_terracotta"
+      "translate": "block.minecraft.sand"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "white_glazed_terracotta": {
+    "sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_glazed_terracotta"
+              "minecraft:sand"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["white_glazed_terracotta"]
+    ["sand"]
   ],
   "rewards": {
-    "function": "maa:blocks/white_glazed_terracotta"
+    "function": "maa:blocks/sand"
   }
 }

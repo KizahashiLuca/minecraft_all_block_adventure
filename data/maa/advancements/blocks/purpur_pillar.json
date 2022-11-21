@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/12",
+  "parent": "maa:blocks/purpur_block",
   "display": {
     "icon": {
       "item": "minecraft:purpur_pillar"
