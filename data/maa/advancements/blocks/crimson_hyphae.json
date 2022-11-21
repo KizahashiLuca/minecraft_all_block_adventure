@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/crimson_stem",
+  "parent": "maa:blocks/5",
   "display": {
     "icon": {
       "item": "minecraft:crimson_hyphae"

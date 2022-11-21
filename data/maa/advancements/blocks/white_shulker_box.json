@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/shulker_box",
+  "parent": "maa:blocks/48",
   "display": {
     "icon": {
       "item": "minecraft:white_shulker_box"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/grass_block",
+  "parent": "maa:blocks/31",
   "display": {
     "icon": {
       "item": "minecraft:podzol"

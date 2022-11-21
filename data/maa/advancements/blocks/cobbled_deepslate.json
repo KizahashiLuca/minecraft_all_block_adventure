@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/deepslate",
+  "parent": "maa:blocks/28",
   "display": {
     "icon": {
       "item": "minecraft:cobbled_deepslate"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/nether_wart_block",
+  "parent": "maa:blocks/3",
   "display": {
     "icon": {
       "item": "minecraft:warped_wart_block"

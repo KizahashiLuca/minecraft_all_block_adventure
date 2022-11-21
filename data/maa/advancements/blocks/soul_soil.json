@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/soul_sand",
+  "parent": "maa:blocks/46",
   "display": {
     "icon": {
       "item": "minecraft:soul_soil"

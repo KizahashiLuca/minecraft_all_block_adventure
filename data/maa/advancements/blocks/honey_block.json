@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/slime_block",
+  "parent": "maa:blocks/6",
   "display": {
     "icon": {
       "item": "minecraft:honey_block"

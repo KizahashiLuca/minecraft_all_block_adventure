@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/melon",
+  "parent": "maa:blocks/1",
   "display": {
     "icon": {
       "item": "minecraft:pumpkin"

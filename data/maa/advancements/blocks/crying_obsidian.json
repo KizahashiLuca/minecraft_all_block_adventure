@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/obsidian",
+  "parent": "maa:blocks/30",
   "display": {
     "icon": {
       "item": "minecraft:crying_obsidian"

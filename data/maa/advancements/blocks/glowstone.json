@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/magma_block",
+  "parent": "maa:blocks/45",
   "display": {
     "icon": {
       "item": "minecraft:glowstone"

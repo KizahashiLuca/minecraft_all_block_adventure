@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/mud",
+  "parent": "maa:blocks/38",
   "display": {
     "icon": {
       "item": "minecraft:packed_mud"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/iron_block",
+  "parent": "maa:blocks/14",
   "display": {
     "icon": {
       "item": "minecraft:raw_iron_block"

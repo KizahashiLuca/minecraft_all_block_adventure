@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/white_wool",
+  "parent": "maa:blocks/37",
   "display": {
     "icon": {
       "item": "minecraft:light_gray_wool"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/sculk",
+  "parent": "maa:blocks/8",
   "display": {
     "icon": {
       "item": "minecraft:sculk_catalyst"

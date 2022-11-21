@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/ochre_froglight",
+  "parent": "maa:blocks/7",
   "display": {
     "icon": {
       "item": "minecraft:verdant_froglight"

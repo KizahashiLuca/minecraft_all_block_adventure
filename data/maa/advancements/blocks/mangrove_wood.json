@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/mangrove_log",
+  "parent": "maa:blocks/56",
   "display": {
     "icon": {
       "item": "minecraft:mangrove_wood"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/white_concrete_powder",
+  "parent": "maa:blocks/35",
   "display": {
     "icon": {
       "item": "minecraft:light_gray_concrete_powder"

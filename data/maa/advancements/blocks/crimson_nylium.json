@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/netherrack",
+  "parent": "maa:blocks/44",
   "display": {
     "icon": {
       "item": "minecraft:crimson_nylium"

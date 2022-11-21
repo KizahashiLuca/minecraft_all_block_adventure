@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/calcite",
+  "parent": "maa:blocks/29",
   "display": {
     "icon": {
       "item": "minecraft:tuff"

@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/spruce_log",
+  "parent": "maa:blocks/51",
   "display": {
     "icon": {
       "item": "minecraft:spruce_wood"

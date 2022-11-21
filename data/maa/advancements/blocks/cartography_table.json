@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/crafting_table",
+  "parent": "maa:blocks/25",
   "display": {
     "icon": {
       "item": "minecraft:cartography_table"

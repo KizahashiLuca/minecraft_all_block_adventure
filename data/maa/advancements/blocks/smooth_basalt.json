@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/basalt",
+  "parent": "maa:blocks/47",
   "display": {
     "icon": {
       "item": "minecraft:smooth_basalt"

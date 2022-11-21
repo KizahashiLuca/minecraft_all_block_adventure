@@ -319,6 +319,7 @@ raw_iron_block,x,
 copper_ore,,x
 deepslate_copper_ore,,x
 copper_block,x,
+cut_copper,x,
 raw_copper_block,x,
 ,,
 gold_ore,,x
@@ -347,13 +348,12 @@ nether_quartz_ore,,x
 ancient_debris,x,
 netherite_block,x,
 ,,
-cut_copper,x,
-exposed_copper,x,
-exposed_cut_copper,x,
-weathered_copper,x,
-weathered_cut_copper,x,
-oxidized_copper,x,
-oxidized_cut_copper,x,
+exposed_copper,,x
+exposed_cut_copper,,x
+weathered_copper,,x
+weathered_cut_copper,,x
+oxidized_copper,,x
+oxidized_cut_copper,,x
 waxed_copper_block,,x
 waxed_cut_copper,,x
 waxed_exposed_copper,,x

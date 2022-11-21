@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/gold_block",
+  "parent": "maa:blocks/16",
   "display": {
     "icon": {
       "item": "minecraft:raw_gold_block"

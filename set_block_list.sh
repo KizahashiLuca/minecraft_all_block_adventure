@@ -12,6 +12,7 @@
 ## Set path
 BlockList=./block_list.csv
 declare -a ColorArray=("white" "light_gray" "gray" "black" "brown" "red" "orange" "yellow" "lime" "green" "cyan" "light_blue" "blue" "purple" "magenta" "pink")
+declare -a NumberArray=("50" "51" "52" "53" "54" "55" "56" "57" "4" "5" "2" "3" "1" "8" "9" "6" "7" "26" "27" "28" "29" "30" "31" "32" "33" "34" "35" "36" "37" "38" "39" "40" "41" "42" "43" "44" "45" "46" "47" "10" "11" "12" "13" "14" "15" "16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "48" "49")
 
 ## Read CSV
 i=0
@@ -21,6 +22,7 @@ while read R; do
   col[0]=`echo ${R} | cut -d , -f 1`
   col[1]=`echo ${R} | cut -d , -f 2`
   col[2]=`echo ${R} | cut -d , -f 3`
+
   ## Skip row
   if [ "${col[0]}" = "" ]; then
     i=0
@@ -38,13 +40,17 @@ while read R; do
   fi
 
   ## Add lines
-  AdvancementsJson=./data/maa/advancements/blocks/${ItemArray[$i]}.json
-  echo ${col[0]} ${col[1]} ${ItemArray[$i]}
   if [ $i == 0 ]; then
+    AdvancementsJson=./data/maa/advancements/blocks/${NumberArray[$j]}.json
     parent=blocks
+  elif [ $i == 1 ]; then
+    AdvancementsJson=./data/maa/advancements/blocks/${ItemArray[$i]}.json
+    parent=blocks/${NumberArray[$j]}
   else
+    AdvancementsJson=./data/maa/advancements/blocks/${ItemArray[$i]}.json
     parent=blocks/${ItemArray[$i-1]}
   fi
+  echo ${col[0]} ${col[1]} ${ItemArray[$i]}
   cat << EOS > ${AdvancementsJson}
 {
   "parent": "maa:${parent}",

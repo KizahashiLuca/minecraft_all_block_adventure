@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/oak_log",
+  "parent": "maa:blocks/50",
   "display": {
     "icon": {
       "item": "minecraft:oak_wood"

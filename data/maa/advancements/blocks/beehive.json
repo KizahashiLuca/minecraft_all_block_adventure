@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/bee_nest",
+  "parent": "maa:blocks/9",
   "display": {
     "icon": {
       "item": "minecraft:beehive"

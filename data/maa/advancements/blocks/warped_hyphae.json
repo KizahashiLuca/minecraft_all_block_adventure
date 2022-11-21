@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/warped_stem",
+  "parent": "maa:blocks/2",
   "display": {
     "icon": {
       "item": "minecraft:warped_hyphae"

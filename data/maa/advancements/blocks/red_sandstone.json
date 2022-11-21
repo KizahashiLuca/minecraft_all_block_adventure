@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/red_sand",
+  "parent": "maa:blocks/40",
   "display": {
     "icon": {
       "item": "minecraft:red_sandstone"

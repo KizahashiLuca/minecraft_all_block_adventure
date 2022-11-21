@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/bricks",
+  "parent": "maa:blocks/32",
   "display": {
     "icon": {
       "item": "minecraft:clay"
