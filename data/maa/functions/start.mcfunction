@@ -15,7 +15,7 @@ gamemode adventure @a
 
 ## Revoke advancements
 advancement revoke @a everything
-advancement grant @a only maa:blocks
+advancement grant @a only maa:root
 advancement grant @a only maa:blocks/1_end
 advancement grant @a only maa:blocks/2_end
 advancement grant @a only maa:blocks/3_end

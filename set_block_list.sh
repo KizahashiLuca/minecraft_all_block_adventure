@@ -20,6 +20,7 @@ declare -a NumberArray=("53" "54" "55" "56" "57" "4" "5" "2" "3" "1" "8" "9" "6"
 ## Remove existing files
 rm ./data/maa/advancements/blocks/*
 rm ./data/maa/functions/blocks/*
+rm ./data/maa/advancements/*
 
 ## Read CSV
 i=0
@@ -166,11 +167,41 @@ EOS
   i=$((i+1))
 done < ${BlockList}
 
-## Overworld advancements
+## Root advancement
+AdvancementsJson=./data/maa/advancements/root.json
+cat << EOS > ${AdvancementsJson}
+{
+  "display": {
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"KizahashiLuca\"}"
+    },
+    "title": {
+      "text": "全ブロックアドベンチャー"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["root"]
+  ]
+}
+EOS
+
+## Overworld advancement
 AdvancementsJson=./data/maa/advancements/overworld.json
 cat << EOS > ${AdvancementsJson}
 {
-  "parent": "maa:blocks",
+  "parent": "maa:root",
   "display": {
     "icon": {
       "item": "minecraft:grass_block"
@@ -225,11 +256,11 @@ cat << EOS >> ${AdvancementsJson}
 }
 EOS
 
-## Nether advancements
+## Nether advancement
 AdvancementsJson=./data/maa/advancements/nether.json
 cat << EOS > ${AdvancementsJson}
 {
-  "parent": "maa:blocks",
+  "parent": "maa:root",
   "display": {
     "icon": {
       "item": "minecraft:netherrack"
@@ -284,11 +315,11 @@ cat << EOS >> ${AdvancementsJson}
 }
 EOS
 
-## End advancements
+## End advancement
 AdvancementsJson=./data/maa/advancements/end.json
 cat << EOS > ${AdvancementsJson}
 {
-  "parent": "maa:blocks",
+  "parent": "maa:root",
   "display": {
     "icon": {
       "item": "minecraft:end_stone"

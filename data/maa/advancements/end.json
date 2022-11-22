@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:root",
   "display": {
     "icon": {
       "item": "minecraft:end_stone"
