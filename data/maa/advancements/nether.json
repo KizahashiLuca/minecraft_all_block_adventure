@@ -1,0 +1,533 @@
+{
+  "parent": "maa:blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "ネザー"
+    },
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_stem"
+            ]
+          }
+        ]
+      }
+    },
+    "crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_hyphae"
+            ]
+          }
+        ]
+      }
+    },
+    "crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_hyphae"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "nether_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_wart_block"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_wart_block"
+            ]
+          }
+        ]
+      }
+    },
+    "shroomlight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shroomlight"
+            ]
+          }
+        ]
+      }
+    },
+    "netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherrack"
+            ]
+          }
+        ]
+      }
+    },
+    "crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_nylium"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_nylium"
+            ]
+          }
+        ]
+      }
+    },
+    "nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "red_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "magma_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magma_block"
+            ]
+          }
+        ]
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      }
+    },
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      }
+    },
+    "soul_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_soil"
+            ]
+          }
+        ]
+      }
+    },
+    "basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          }
+        ]
+      }
+    },
+    "polished_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_basalt"
+            ]
+          }
+        ]
+      }
+    },
+    "blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_polished_blackstone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_polished_blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "gilded_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_block"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_quartz_block"
+            ]
+          }
+        ]
+      }
+    },
+    "quartz_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "quartz_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_pillar"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crimson_stem"
+    ],
+    [
+      "crimson_hyphae"
+    ],
+    [
+      "crimson_planks"
+    ],
+    [
+      "warped_stem"
+    ],
+    [
+      "warped_hyphae"
+    ],
+    [
+      "warped_planks"
+    ],
+    [
+      "nether_wart_block"
+    ],
+    [
+      "warped_wart_block"
+    ],
+    [
+      "shroomlight"
+    ],
+    [
+      "netherrack"
+    ],
+    [
+      "crimson_nylium"
+    ],
+    [
+      "warped_nylium"
+    ],
+    [
+      "nether_bricks"
+    ],
+    [
+      "cracked_nether_bricks"
+    ],
+    [
+      "chiseled_nether_bricks"
+    ],
+    [
+      "red_nether_bricks"
+    ],
+    [
+      "magma_block"
+    ],
+    [
+      "glowstone"
+    ],
+    [
+      "soul_sand"
+    ],
+    [
+      "soul_soil"
+    ],
+    [
+      "basalt"
+    ],
+    [
+      "smooth_basalt"
+    ],
+    [
+      "polished_basalt"
+    ],
+    [
+      "blackstone"
+    ],
+    [
+      "polished_blackstone"
+    ],
+    [
+      "polished_blackstone_bricks"
+    ],
+    [
+      "cracked_polished_blackstone_bricks"
+    ],
+    [
+      "chiseled_polished_blackstone"
+    ],
+    [
+      "gilded_blackstone"
+    ],
+    [
+      "quartz_block"
+    ],
+    [
+      "chiseled_quartz_block"
+    ],
+    [
+      "quartz_bricks"
+    ],
+    [
+      "quartz_pillar"
+    ],
+    [
+      "smooth_quartz"
+    ]
+  ],
+  "rewards": {
+    "function": "maa:nether"
+  }
+}

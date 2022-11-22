@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:coal_block"
     },
     "title": {
-      "translate": "block.minecraft.magma_block"
+      "translate": "block.minecraft.coal_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "magma_block": {
+    "coal_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:magma_block"
+              "minecraft:coal_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["magma_block"]
+    ["coal_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/magma_block"
+    "function": "maa:blocks/coal_block"
   }
 }

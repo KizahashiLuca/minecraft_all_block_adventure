@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:mangrove_log"
+      "item": "minecraft:jungle_log"
     },
     "title": {
-      "translate": "block.minecraft.mangrove_log"
+      "translate": "block.minecraft.jungle_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "mangrove_log": {
+    "jungle_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:mangrove_log"
+              "minecraft:jungle_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["mangrove_log"]
+    ["jungle_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/mangrove_log"
+    "function": "maa:blocks/jungle_log"
   }
 }

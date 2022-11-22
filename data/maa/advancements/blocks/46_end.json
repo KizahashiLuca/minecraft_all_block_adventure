@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/warped_planks",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "46_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["46_end"]
+  ]
+}

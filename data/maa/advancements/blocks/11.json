@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:nether_bricks"
     },
     "title": {
-      "translate": "block.minecraft.bricks"
+      "translate": "block.minecraft.nether_bricks"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "bricks": {
+    "nether_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:bricks"
+              "minecraft:nether_bricks"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["bricks"]
+    ["nether_bricks"]
   ],
   "rewards": {
-    "function": "maa:blocks/bricks"
+    "function": "maa:blocks/nether_bricks"
   }
 }

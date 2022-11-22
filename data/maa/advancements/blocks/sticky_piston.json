@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/10",
+  "parent": "maa:blocks/41",
   "display": {
     "icon": {
       "item": "minecraft:sticky_piston"

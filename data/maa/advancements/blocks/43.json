@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:white_glazed_terracotta"
     },
     "title": {
-      "translate": "block.minecraft.end_stone"
+      "translate": "block.minecraft.white_glazed_terracotta"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "end_stone": {
+    "white_glazed_terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:end_stone"
+              "minecraft:white_glazed_terracotta"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["end_stone"]
+    ["white_glazed_terracotta"]
   ],
   "rewards": {
-    "function": "maa:blocks/end_stone"
+    "function": "maa:blocks/white_glazed_terracotta"
   }
 }

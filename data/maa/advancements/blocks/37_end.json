@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/dead_horn_coral_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "37_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["37_end"]
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:magma_block"
     },
     "title": {
-      "translate": "block.minecraft.white_glazed_terracotta"
+      "translate": "block.minecraft.magma_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "white_glazed_terracotta": {
+    "magma_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_glazed_terracotta"
+              "minecraft:magma_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["white_glazed_terracotta"]
+    ["magma_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/white_glazed_terracotta"
+    "function": "maa:blocks/magma_block"
   }
 }

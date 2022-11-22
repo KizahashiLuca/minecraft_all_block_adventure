@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:piston"
+      "item": "minecraft:netherrack"
     },
     "title": {
-      "translate": "block.minecraft.piston"
+      "translate": "block.minecraft.netherrack"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "piston": {
+    "netherrack": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:piston"
+              "minecraft:netherrack"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["piston"]
+    ["netherrack"]
   ],
   "rewards": {
-    "function": "maa:blocks/piston"
+    "function": "maa:blocks/netherrack"
   }
 }

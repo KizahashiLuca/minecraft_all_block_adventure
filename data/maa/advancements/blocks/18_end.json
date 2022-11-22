@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/pink_shulker_box",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "18_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["18_end"]
+  ]
+}

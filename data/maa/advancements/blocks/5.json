@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:crimson_stem"
+      "item": "minecraft:mangrove_log"
     },
     "title": {
-      "translate": "block.minecraft.crimson_stem"
+      "translate": "block.minecraft.mangrove_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "crimson_stem": {
+    "mangrove_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crimson_stem"
+              "minecraft:mangrove_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["crimson_stem"]
+    ["mangrove_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/crimson_stem"
+    "function": "maa:blocks/mangrove_log"
   }
 }

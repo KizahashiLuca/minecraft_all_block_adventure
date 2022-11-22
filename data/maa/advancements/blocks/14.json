@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:basalt"
     },
     "title": {
-      "translate": "block.minecraft.white_concrete_powder"
+      "translate": "block.minecraft.basalt"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "white_concrete_powder": {
+    "basalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_concrete_powder"
+              "minecraft:basalt"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["white_concrete_powder"]
+    ["basalt"]
   ],
   "rewards": {
-    "function": "maa:blocks/white_concrete_powder"
+    "function": "maa:blocks/basalt"
   }
 }

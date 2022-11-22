@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
       "item": "minecraft:melon"

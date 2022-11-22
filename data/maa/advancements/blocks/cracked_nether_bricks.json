@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/nether_bricks",
+  "parent": "maa:blocks/11",
   "display": {
     "icon": {
       "item": "minecraft:cracked_nether_bricks"

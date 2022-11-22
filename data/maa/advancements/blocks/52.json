@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:white_wool"
     },
     "title": {
-      "translate": "block.minecraft.birch_log"
+      "translate": "block.minecraft.white_wool"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "birch_log": {
+    "white_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:birch_log"
+              "minecraft:white_wool"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["birch_log"]
+    ["white_wool"]
   ],
   "rewards": {
-    "function": "maa:blocks/birch_log"
+    "function": "maa:blocks/white_wool"
   }
 }

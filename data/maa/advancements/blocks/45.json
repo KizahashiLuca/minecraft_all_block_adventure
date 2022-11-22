@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:crimson_stem"
     },
     "title": {
-      "translate": "block.minecraft.soul_sand"
+      "translate": "block.minecraft.crimson_stem"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "soul_sand": {
+    "crimson_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:soul_sand"
+              "minecraft:crimson_stem"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["soul_sand"]
+    ["crimson_stem"]
   ],
   "rewards": {
-    "function": "maa:blocks/soul_sand"
+    "function": "maa:blocks/crimson_stem"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:bricks"
     },
     "title": {
-      "translate": "block.minecraft.quartz_block"
+      "translate": "block.minecraft.bricks"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "quartz_block": {
+    "bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:quartz_block"
+              "minecraft:bricks"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["quartz_block"]
+    ["bricks"]
   ],
   "rewards": {
-    "function": "maa:blocks/quartz_block"
+    "function": "maa:blocks/bricks"
   }
 }

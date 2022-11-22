@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:dark_oak_log"
     },
     "title": {
-      "translate": "block.minecraft.coal_block"
+      "translate": "block.minecraft.dark_oak_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "coal_block": {
+    "dark_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:coal_block"
+              "minecraft:dark_oak_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["coal_block"]
+    ["dark_oak_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/coal_block"
+    "function": "maa:blocks/dark_oak_log"
   }
 }

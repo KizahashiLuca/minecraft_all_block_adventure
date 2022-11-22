@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:glass"
     },
     "title": {
-      "translate": "block.minecraft.spruce_log"
+      "translate": "block.minecraft.glass"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "spruce_log": {
+    "glass": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:spruce_log"
+              "minecraft:glass"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["spruce_log"]
+    ["glass"]
   ],
   "rewards": {
-    "function": "maa:blocks/spruce_log"
+    "function": "maa:blocks/glass"
   }
 }

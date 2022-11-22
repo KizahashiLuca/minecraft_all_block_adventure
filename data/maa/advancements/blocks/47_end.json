@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/shroomlight",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "47_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["47_end"]
+  ]
+}

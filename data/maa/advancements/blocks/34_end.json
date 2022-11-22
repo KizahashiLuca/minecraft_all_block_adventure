@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/cut_red_sandstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "34_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["34_end"]
+  ]
+}

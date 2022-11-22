@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:spruce_log"
     },
     "title": {
-      "translate": "block.minecraft.acacia_log"
+      "translate": "block.minecraft.spruce_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "acacia_log": {
+    "spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:acacia_log"
+              "minecraft:spruce_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["acacia_log"]
+    ["spruce_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/acacia_log"
+    "function": "maa:blocks/spruce_log"
   }
 }

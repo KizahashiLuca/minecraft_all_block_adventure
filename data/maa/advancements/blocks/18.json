@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:end",
   "display": {
     "icon": {
-      "item": "minecraft:warped_stem"
+      "item": "minecraft:shulker_box"
     },
     "title": {
-      "translate": "block.minecraft.warped_stem"
+      "translate": "block.minecraft.shulker_box"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "warped_stem": {
+    "shulker_box": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:warped_stem"
+              "minecraft:shulker_box"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["warped_stem"]
+    ["shulker_box"]
   ],
   "rewards": {
-    "function": "maa:blocks/warped_stem"
+    "function": "maa:blocks/shulker_box"
   }
 }

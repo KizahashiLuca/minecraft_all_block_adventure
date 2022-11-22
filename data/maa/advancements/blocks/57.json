@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:acacia_log"
     },
     "title": {
-      "translate": "block.minecraft.nether_wart_block"
+      "translate": "block.minecraft.acacia_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "nether_wart_block": {
+    "acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:nether_wart_block"
+              "minecraft:acacia_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["nether_wart_block"]
+    ["acacia_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/nether_wart_block"
+    "function": "maa:blocks/acacia_log"
   }
 }

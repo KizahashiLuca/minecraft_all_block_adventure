@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:oak_log"
     },
     "title": {
-      "translate": "block.minecraft.jungle_log"
+      "translate": "block.minecraft.oak_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "jungle_log": {
+    "oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:jungle_log"
+              "minecraft:oak_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["jungle_log"]
+    ["oak_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/jungle_log"
+    "function": "maa:blocks/oak_log"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks/warped_nylium",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:soul_sand"
     },
     "title": {
-      "translate": "block.minecraft.nether_bricks"
+      "translate": "block.minecraft.soul_sand"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "nether_bricks": {
+    "soul_sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:nether_bricks"
+              "minecraft:soul_sand"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["nether_bricks"]
+    ["soul_sand"]
   ],
   "rewards": {
-    "function": "maa:blocks/nether_bricks"
+    "function": "maa:blocks/soul_sand"
   }
 }

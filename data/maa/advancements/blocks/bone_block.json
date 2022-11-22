@@ -1,5 +1,5 @@
 {
-  "parent": "maa:blocks/soul_soil",
+  "parent": "maa:blocks/honey_block",
   "display": {
     "icon": {
       "item": "minecraft:bone_block"

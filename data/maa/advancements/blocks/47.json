@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:nether_wart_block"
     },
     "title": {
-      "translate": "block.minecraft.crafting_table"
+      "translate": "block.minecraft.nether_wart_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "crafting_table": {
+    "nether_wart_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:crafting_table"
+              "minecraft:nether_wart_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["crafting_table"]
+    ["nether_wart_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/crafting_table"
+    "function": "maa:blocks/nether_wart_block"
   }
 }

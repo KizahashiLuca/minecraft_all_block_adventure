@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:end",
   "display": {
     "icon": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:end_stone"
     },
     "title": {
-      "translate": "block.minecraft.shulker_box"
+      "translate": "block.minecraft.end_stone"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "shulker_box": {
+    "end_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:shulker_box"
+              "minecraft:end_stone"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["shulker_box"]
+    ["end_stone"]
   ],
   "rewards": {
-    "function": "maa:blocks/shulker_box"
+    "function": "maa:blocks/end_stone"
   }
 }

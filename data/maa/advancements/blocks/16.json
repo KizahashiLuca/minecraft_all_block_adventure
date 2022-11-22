@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:quartz_block"
     },
     "title": {
-      "translate": "block.minecraft.white_wool"
+      "translate": "block.minecraft.quartz_block"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "white_wool": {
+    "quartz_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_wool"
+              "minecraft:quartz_block"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["white_wool"]
+    ["quartz_block"]
   ],
   "rewards": {
-    "function": "maa:blocks/white_wool"
+    "function": "maa:blocks/quartz_block"
   }
 }

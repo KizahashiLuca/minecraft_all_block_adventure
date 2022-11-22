@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/netherite_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "38_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["38_end"]
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:nether",
   "display": {
     "icon": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:warped_stem"
     },
     "title": {
-      "translate": "block.minecraft.dried_kelp_block"
+      "translate": "block.minecraft.warped_stem"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "dried_kelp_block": {
+    "warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dried_kelp_block"
+              "minecraft:warped_stem"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["dried_kelp_block"]
+    ["warped_stem"]
   ],
   "rewards": {
-    "function": "maa:blocks/dried_kelp_block"
+    "function": "maa:blocks/warped_stem"
   }
 }

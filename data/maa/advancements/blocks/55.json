@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:birch_log"
     },
     "title": {
-      "translate": "block.minecraft.dark_oak_log"
+      "translate": "block.minecraft.birch_log"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "dark_oak_log": {
+    "birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dark_oak_log"
+              "minecraft:birch_log"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["dark_oak_log"]
+    ["birch_log"]
   ],
   "rewards": {
-    "function": "maa:blocks/dark_oak_log"
+    "function": "maa:blocks/birch_log"
   }
 }

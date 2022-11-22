@@ -1,11 +1,11 @@
 {
-  "parent": "maa:blocks",
+  "parent": "maa:overworld",
   "display": {
     "icon": {
-      "item": "minecraft:basalt"
+      "item": "minecraft:crafting_table"
     },
     "title": {
-      "translate": "block.minecraft.basalt"
+      "translate": "block.minecraft.crafting_table"
     },
     "description": "",
     "announce_to_chat": false,
@@ -14,13 +14,13 @@
     "show_toast": false
   },
   "criteria": {
-    "basalt": {
+    "crafting_table": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:basalt"
+              "minecraft:crafting_table"
             ]
           }
         ]
@@ -28,9 +28,9 @@
     }
   },
   "requirements": [
-    ["basalt"]
+    ["crafting_table"]
   ],
   "rewards": {
-    "function": "maa:blocks/basalt"
+    "function": "maa:blocks/crafting_table"
   }
 }

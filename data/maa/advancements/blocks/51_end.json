@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/pink_stained_glass",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "51_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["51_end"]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/gilded_blackstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "15_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["15_end"]
+  ]
+}

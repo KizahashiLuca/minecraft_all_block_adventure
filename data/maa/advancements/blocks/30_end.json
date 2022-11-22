@@ -1,0 +1,22 @@
+{
+  "parent": "maa:blocks/crying_obsidian",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "30_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["30_end"]
+  ]
+}
