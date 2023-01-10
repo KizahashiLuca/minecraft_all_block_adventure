@@ -119,7 +119,7 @@ EOS
     "announce_to_chat": false,
     "frame": "task",
     "hidden": false,
-    "show_toast": false
+    "show_toast": true
   },
   "criteria": {
     "${ItemArray[$i]}": {
@@ -160,6 +160,8 @@ EOS
 function maa:block_count/main
 
 ## Send message
+title @a title ["",{"translate":"block.minecraft.${ItemArray[$i]}","color":"green"}]
+title @a subtitle ["",{"translate":"入手","color":"green"}]
 tellraw @a ["",{"text":"[GABA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.${ItemArray[$i]}","color":"green"},{"text":"を入手。"}]
 EOS
 

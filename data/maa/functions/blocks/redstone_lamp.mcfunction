@@ -11,4 +11,6 @@
 function maa:block_count/main
 
 ## Send message
+title @a title ["",{"translate":"block.minecraft.redstone_lamp","color":"green"}]
+title @a subtitle ["",{"translate":"入手","color":"green"}]
 tellraw @a ["",{"text":"[GABA]","color":"aqua"},{"text":" "},{"translate":"block.minecraft.redstone_lamp","color":"green"},{"text":"を入手。"}]
